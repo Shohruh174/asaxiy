@@ -9,18 +9,20 @@
   <title>asaxiy</title>
 </head>
 
-<body style="background-color: #F4F7FD;">
-  <header class="mb-5" style="background-color: #fff; border-bottom: 1px solid #e5e5e5; box-shadow: 0px 10px 30px rgba(209, 213, 223, 0.5);">
+<body style="background-color: #F4F7FD; transition: all ease 0.5s;">
+  <header class="mb-5"
+    style="background-color: #fff; border-bottom: 1px solid #e5e5e5; box-shadow: 0px 10px 30px rgba(209, 213, 223, 0.5);">
     <div class="header-inner d-flex col-md-12 container" style="padding: 17px 0;">
       <div class="header-left me-5">
         <img src="./images/icons/asaxiy-logo.svg" alt="">
       </div>
 
       <div class="header-search me-5">
-        <form class="input-group mb-3" style="">
+        <form action="https://echo.htmlacademy.ru" class="input-group mb-3" style="">
           <input type="text"
             style="width: 400px; border-radius: 10px; z-index: 2; position: relative; border: 1px solid #0D6EFD;"
-            class="form-control" placeholder="Поиск..." aria-label="Поиск..." aria-describedby="button-addon2">
+            class="form-control" name="search-information" placeholder="Поиск..." aria-label="Поиск..."
+            aria-describedby="button-addon2">
           <button class="btn btn-primary"
             style="position: relative; z-index: 1; left: -15px; padding-left: 30px; border-radius: 10px;" type="button"
             id="button-addon2">Искать</button>
@@ -49,16 +51,18 @@
 
     <nav class="navbar navbar-light bg-white d-flex pb-3 pt-3" style="border-top: 1px solid #e5e5e5">
       <div class="container-fluid container">
-        <a class="navbar-brand" href="#" style="font-size: 13px; color: #212529;">Все категории</a>
-        <a class="navbar-brand" href="#" style="font-size: 13px; color: #212529;">Новости</a>
-        <a class="navbar-brand" href="#" style="font-size: 13px; color: #212529;">Скидки</a>
-        <a class="navbar-brand" href="#" style="font-size: 13px; color: #212529;">Книги</a>
-        <a class="navbar-brand" href="#" style="font-size: 13px; color: #212529;">Мебель</a>
-        <a class="navbar-brand" href="#" style="font-size: 13px; color: #212529;">COVID-19</a>
-        <a class="navbar-brand" href="#" style="font-size: 13px; color: #212529;">Телефоны и гаджеты</a>
-        <a class="navbar-brand" href="#" style="font-size: 13px; color: #212529;">Компьютеры и оргтехника</a>
-        <a class="navbar-brand" href="#" style="font-size: 13px; color: #212529;">Для геймеров</a>
-        <a class="navbar-brand" href="#" style="font-size: 13px; color: #212529;">Кондиционеры</a>
+        <a class="navbar-brand" href="#" style="font-size: 13px; font-weight: 600; color: #212529;">Все категории</a>
+        <a class="navbar-brand" href="#" style="font-size: 13px; font-weight: 600; color: #212529;">Новости</a>
+        <a class="navbar-brand" href="#" style="font-size: 13px; font-weight: 600; color: #212529;">Скидки</a>
+        <a class="navbar-brand" href="#" style="font-size: 13px; font-weight: 600; color: #212529;">Книги</a>
+        <a class="navbar-brand" href="#" style="font-size: 13px; font-weight: 600; color: #212529;">Мебель</a>
+        <a class="navbar-brand" href="#" style="font-size: 13px; font-weight: 600; color: #212529;">COVID-19</a>
+        <a class="navbar-brand" href="#" style="font-size: 13px; font-weight: 600; color: #212529;">Телефоны и
+          гаджеты</a>
+        <a class="navbar-brand" href="#" style="font-size: 13px; font-weight: 600; color: #212529;">Компьютеры и
+          оргтехника</a>
+        <a class="navbar-brand" href="#" style="font-size: 13px; font-weight: 600; color: #212529;">Для геймеров</a>
+        <a class="navbar-brand" href="#" style="font-size: 13px; font-weight: 600; color: #212529;">Кондиционеры</a>
       </div>
     </nav>
   </header>
@@ -134,57 +138,98 @@
     <div class="row d-flex justify-content-end align-items-end mb-5">
       <div class="col-md-9" style="width: 100%;;">
         <div class="row mb-5">
+
           <div class="col-lg-3">
-            <div class="card col-lg-3 me-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3">
-            <div class="card col-lg-3 me-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         <div class="col-lg-3">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3">
-            <div class="card col-lg-3 me-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="card col-lg-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
@@ -195,56 +240,96 @@
 
         <div class="row mb-5">
           <div class="col-lg-3">
-            <div class="card col-lg-3 me-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3">
-            <div class="card col-lg-3 me-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3">
-            <div class="card col-lg-3 me-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3">
-            <div class="card col-lg-3 me-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
@@ -255,56 +340,96 @@
 
         <div class="row">
           <div class="col-lg-3">
-            <div class="card col-lg-3 me-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3">
-            <div class="card col-lg-3 me-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3">
-            <div class="card col-lg-3 me-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3">
-            <div class="card col-lg-3" style="width: 18rem; width: 170px;">
-              <div class="block">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="card col-lg-3 me-3" style="width: 18rem; width: 250px; border-radius: 20px;">
+              <div class="block position-relative" style="padding: 10px;">
+                <span style="position: absolute; padding: 3px 10px; background-color: #ff9800; color: #FFFFFF; font-size: 12px; border-radius: 7px;">СКИДКА</span>
+                <img src="./images/5f97c00f39e97.jpg" class="card-img-top" alt="..." style="margin-bottom: 35px;"
+                  width="140" height="220">
+                <button class="btn btn-primary ms-3">Apple</button>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">
+                    <a href="#" style="text-decoration: none; display: block; font-size: 14px;">Смартфон iPhone 12 Pro
+                      max<br> 128GB Black, Blue, Silver (Dual)</a>
+                  </h5>
+                  <p class="card-text ms-5" style="color: #C2C6D1;">0 отзывов</p>
+                  <span class="old-price d-block" style="text-decoration-line: line-through; color: #af5679; font-size: 12px; line-height: 20px;">3 127 000 сум</span>
+                  <span class="price" style="color: #141821; font-size: 18px; line-height: 20px;">2 576 000 сум</span>
+                 <div class="d-flex justify-content-between">
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;"> Заказать</a>
+                  <a href="#" style="text-decoration: none; color: #C2C6D1;">Рассрочка</a>
+                 </div>
                 </div>
               </div>
             </div>
@@ -322,17 +447,25 @@
     <nav aria-label="Page navigation example">
       <ul class="pagination">
         <li class="page-item">
-          <a class="page-link me-2" href="#" aria-label="Previous" style="border-radius: 10px; border: none;  font-weight: bold;">
+          <a class="page-link me-2" href="#" aria-label="Previous"
+            style="border-radius: 10px; border: none;  font-weight: bold;">
             <span aria-hidden="true">&laquo;</span>
           </a>
         </li>
-        <li class="page-item me-2"><a class="page-link" href="#" style="border-radius: 10px; border: none; background-color: #0D6EFD; color: #fff; font-weight: bold;">1</a></li>
-        <li class="page-item me-2"><a class="page-link" href="#" style="border-radius: 10px; border: none; font-weight: bold;">2</a></li>
-        <li class="page-item me-2"><a class="page-link" href="#" style="border-radius: 10px; border: none; font-weight: bold;">3</a></li>
-        <li class="page-item me-2"><a class="page-link" href="#" style="border-radius: 10px; border: none; font-weight: bold;">4</a></li>
-        <li class="page-item me-2"><a class="page-link" href="#" style="border-radius: 10px; border: none; font-weight: bold;">5</a></li>
+        <li class="page-item me-2"><a class="page-link" href="#"
+            style="border-radius: 10px; border: none; background-color: #0D6EFD; color: #fff; font-weight: bold;">1</a>
+        </li>
+        <li class="page-item me-2"><a class="page-link" href="#"
+            style="border-radius: 10px; border: none; font-weight: bold;">2</a></li>
+        <li class="page-item me-2"><a class="page-link" href="#"
+            style="border-radius: 10px; border: none; font-weight: bold;">3</a></li>
+        <li class="page-item me-2"><a class="page-link" href="#"
+            style="border-radius: 10px; border: none; font-weight: bold;">4</a></li>
+        <li class="page-item me-2"><a class="page-link" href="#"
+            style="border-radius: 10px; border: none; font-weight: bold;">5</a></li>
         <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next" style="border-radius: 10px; border: none;  font-weight: bold;">
+          <a class="page-link" href="#" aria-label="Next"
+            style="border-radius: 10px; border: none;  font-weight: bold;">
             <span aria-hidden="true">&raquo;</span>
           </a>
         </li>
@@ -341,8 +474,306 @@
   </div>
 
 
-  .
+  <div class="container mb-5">
+    <div id="carouselExampleSlideOnly" class="carousel slide bg-white" style="border-radius: 20px; padding: 30px 0;"
+      data-bs-ride="carousel">
+      <div class="carousel-inner" style="width: 100%;">
+        <div class="carousel-item">
+          <img src="./images/acer.png" class="d-block w-25" alt="acer" width="100px" height="100px">
+        </div>
+        <div class="carousel-item active">
+          <img src="./images/apple.svg" class="d-block w-25" alt="apple" width="100px" height="100px">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/ariston.png" class="d-block w-25" alt="ariston" width="100px" height="100px">
+        </div>
 
+        <div class="carousel-item">
+          <img src="./images/artel.png" class="d-block w-25" alt="artel" width="100px" height="100px">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./images/hp.png" class="d-block w-25" alt="hp" width="100px" height="100px">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./images/huawei.svg" class="d-block w-25" alt="huawei" width="100px" height="100px">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./images/lenovo.svg" class="d-block w-25" alt="image description" width="100px" height="100px">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./images/monsher.png" class="d-block w-25" alt="monsher" width="100px" height="100px">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./images/samsung.svg" class="d-block w-25" alt="samsung" width="100px" height="100px">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./images/xiaomi.png" class="d-block w-25" alt="xiaomi" width="100px" height="100px">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mb-5">
+    <div class="d-flex align-items-center"
+      style="background-color: #008DFF; border-radius: 20px; height: 250px; overflow: hidden;">
+      <div class="app-img" style="width: 50%;">
+        <img src="./images/ayfon.png" alt="" style="position: relative; bottom: -120px; left: 50px;">
+      </div>
+
+      <div class="app-content" style="width: 50%; text-align: center;">
+        <a href="#">
+          <img src="./images/icons/asaxiy-logo-white.svg" alt="" class="mb-2">
+        </a>
+        <p style="font-size: 16px; font-weight: 400; margin-bottom: 20px; color: #FFFFFF;">Ваш интернет магазин</p>
+        <div class="skachat">
+          <a href="#">
+            <img src="./images/icons/app-store.svg" alt="">
+          </a>
+
+          <a href="#">
+            <img src="./images/icons/google-play.svg" alt="">
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="footer pt-5" style="background-color: #008DFF;">
+    <div class="footer-block d-flex align-items-center justify-content-between container bg-white mb-5"
+      style="border-radius: 20px; box-shadow: 0px 10px 30px rgba(209, 213, 223, 0.5); padding: 25px 20px;">
+      <div class="block-item d-flex align-items-center">
+        <div class="block-item-img">
+          <img src="./images/icons/market.svg" alt="">
+        </div>
+        <div class="block-item-info" style="margin-left: 15px;">
+          <p class="mb-2" style="color: #000; line-height: 14px; font-size: 16px; font-weight: bold;">Больше не нужно
+            ходить на базар</p>
+          <span style="color: #858997;">У нас выгодные цены и<br> доставка до дома</span>
+        </div>
+      </div>
+
+      <div class="block-item d-flex align-items-center">
+        <div class="block-item-img">
+          <img src="./images/icons/fast-delivery.svg" alt="">
+        </div>
+        <div class="block-item-info" style="margin-left: 15px;">
+          <p class="mb-2" style="color: #000; line-height: 14px; font-size: 16px; font-weight: bold;">Быстрая доставка
+          </p>
+          <span style="color: #858997;">Наш сервис удивит вас</span>
+        </div>
+      </div>
+
+      <div class="block-item d-flex align-items-center">
+        <div class="block-item-img">
+          <img src="./images/icons/return.svg" alt="">
+        </div>
+        <div class="block-item-info" style="margin-left: 15px;">
+          <p class="mb-2" style="color: #000; line-height: 14px; font-size: 16px; font-weight: bold;">Удобства для вас
+          </p>
+          <span style="color: #858997;">Быстрое оформление и<br> гарантия на возврат в<br> случае неисправности</span>
+        </div>
+      </div>
+
+      <div class="block-item d-flex align-items-center">
+        <div class="block-item-img">
+          <img src="./images/icons/card.svg" alt="">
+        </div>
+        <div class="block-item-info" style="margin-left: 15px;">
+          <p class="mb-2" style="color: #000; line-height: 14px; font-size: 16px; font-weight: bold;">Рассрочка</p>
+          <span style="color: #858997;">Без предоплаты на 12 или<br> 18 месяцев</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-info">
+      <div class="container">
+
+        <div class="row">
+          <div class="d-flex col-md-8">
+            <div class="col-md-6">
+              <div class="info me-5">
+                <span style="font-size: 16px; line-height: 20px; color: #fff; font-weight: bold;">Информация</span>
+
+                <a href="#" class="d-block"
+                  style="font-weight: 500; margin-top: 30px; color: #f4f4f4; font-size: 14px; margin-bottom: 12px; text-decoration: none;">Пользовательское
+                  соглашение</a>
+
+                <a href="#" class="d-block"
+                  style="font-weight: 500; color: #f4f4f4; font-size: 14px; margin-bottom: 12px; text-decoration: none;">Условия
+                  рассрочки</a>
+
+                <a href="#" class="d-block"
+                  style="font-weight: 500; color: #f4f4f4; font-size: 14px; margin-bottom: 12px; text-decoration: none;">Новогодняя
+                  акция «Удачные покупки»</a>
+
+                <a href="#" class="d-block"
+                  style="font-weight: 500; color: #f4f4f4; font-size: 14px; margin-bottom: 12px; text-decoration: none;">Информация
+                  о доставке</a>
+
+                <a href="#" class="d-block"
+                  style="font-weight: 500; color: #f4f4f4; font-size: 14px; margin-bottom: 12px; text-decoration: none;">Возврат
+                  товара</a>
+
+                <a href="#" class="d-block"
+                  style="font-weight: 500; color: #f4f4f4; font-size: 14px; margin-bottom: 12px; text-decoration: none;">О
+                  нас</a>
+              </div>
+            </div>
+
+
+            <div class="col-md-6">
+              <div class="nomer">
+                <span style="font-size: 16px; line-height: 20px; color: #fff; font-weight: bold; display: block;">Для
+                  связи</span>
+
+                <a href="tel:+998 71 200 01 05" class="d-block"
+                  style="font-weight: 500; color: #f4f4f4; font-size: 14px; margin-bottom: 12px; margin-top: 30px; text-decoration: none;">+998
+                  71 200 01 05</a>
+                <a href="mailto:info@asaxiy.uz" class="d-block"
+                  style="font-weight: 500; color: #f4f4f4; font-size: 14px; margin-bottom: 12px; text-decoration: none;">info@asaxiy.uz</a>
+                <a href="#" class="d-block"
+                  style="font-weight: 500; color: #f4f4f4; font-size: 14px; margin-bottom: 12px; text-decoration: none;">Чиланзар
+                  3, Ташкент</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="footer-info-right" style="position: relative; overflow: hidden;">
+              <span
+                style="margin-bottom: 30px; font-size: 16px; line-height: 20px; color: #fff; font-weight: bold; display: block;">Наш
+                Facebook</span>
+
+              <div class="top" style="">
+
+                <div class="back" style="">
+                  <img src="./images/footer-info-img.jpg" alt="" style="width: 100%; height: 130px;">
+                </div>
+
+                <img src="./images/foot-img-icon.jpg" alt="" style="position: absolute; z-index: 3;">
+                <a href="#"
+                  style="position: absolute; top: 60px; right: 20px; color: #f4f4f4; text-decoration: none; font-size: 19px;">asaxiy.uz
+                  - Сизнинг интерн...</a>
+                <span style="position: absolute; top: 85px; right: 190px; color: #f4f4f4;">1,306 likes</span>
+
+                <div class="foot-info-bottom d-flex">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="container">
+        <div class="inner d-flex mb-5" style="border-top: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF;">
+          <div class="col-md-6 text-end">
+            <div class="inner-foot me-5" style="padding: 20px 0;">
+              <span class="me-2" style="color: #fff; font-weight: bolder;">Виды оплаты :</span>
+              <img src="" alt="">
+              <img src="" alt="">
+
+              <a href="#" class="me-3" style="font-weight: bold; color:#FFFFFF; text-decoration: none;">Click</a>
+
+              <a href="#" class="me-3" style="font-weight: bold; color:#FFFFFF; text-decoration: none;">PayMe</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 text-start">
+            <div class="inner-foot" style="padding: 20px 0;">
+              <span class="me-2" style="color: #fff; font-weight: bolder;">Мы в соц. сетях :</span>
+
+
+
+
+              <?xml version="1.0" encoding="iso-8859-1"?>
+              <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+              <svg class="me-3" style="width: 20px; height: 20px;" version="1.1" id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 48.605 48.605" style="enable-background:new 0 0 48.605 48.605;" xml:space="preserve">
+                <g>
+                  <path d="M34.094,8.688h4.756V0.005h-8.643c-0.721-0.03-9.51-0.198-11.788,8.489c-0.033,0.091-0.761,2.157-0.761,6.983l-7.903,0.024
+                v9.107l7.913-0.023v24.021h12.087v-24h8v-9.131h-8v-2.873C29.755,10.816,30.508,8.688,34.094,8.688z M35.755,17.474v5.131h-8v24
+                h-8.087V22.579l-7.913,0.023v-5.107l7.934-0.023l-0.021-1.017c-0.104-5.112,0.625-7.262,0.658-7.365
+                c1.966-7.482,9.473-7.106,9.795-7.086l6.729,0.002v4.683h-2.756c-4.673,0-6.338,3.054-6.338,5.912v4.873L35.755,17.474
+                L35.755,17.474z" />
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+              </svg>
+
+
+
+              <svg id="Capa_1" enable-background="new 0 0 511.933 511.933" style="width: 20px; height: 20px;"
+                viewBox="0 0 511.933 511.933" xmlns="http://www.w3.org/2000/svg" class="me-3">
+                <g>
+                  <path
+                    d="m491.638 33.873-491.638 198.879v28.747l140.811 43.47 44.533 142.87 35.549-.006 57.315-58.642 120.991 88.869 23.55-8.96 89.185-418.193zm-93.388 406.267-159.347-117.041-17.76 24.178 32.646 23.979-46.372 46.58-36.387-116.734 210.759-125.839-15.379-25.758-213.86 127.69-103.462-31.939 427.614-172.979z" />
+                </g>
+              </svg>
+
+
+              <svg style="width: 20px; height: 20px;" viewBox="0 0 512.00096 512.00096"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0" />
+                <path
+                  d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0" />
+                <path
+                  d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0" />
+              </svg>
+
+              <img src="" alt="">
+              <img src="" alt="">
+              <img src="" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
   <script src="./popper/bootstrap.bundle.min.js"></script>
   <script src="./libs/bootstrap/bootstrap.min.js"></script>
   <script src="./scripts/main.js"></script>
